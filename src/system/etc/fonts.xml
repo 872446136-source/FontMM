@@ -1554,11 +1554,11 @@
               postScriptName="NotoSerifCJKjp-Regular">NotoSerifCJK-Regular.ttc
         </font>
     </family>
-    <!-- 琛ュ厖瀛楀簱 (OFL-1.1): 鍏ㄥ眬 fallback, 鍏滃簳鐢ㄦ埛瀛椾綋涓庣郴缁熷瓧浣撴湭瑕嗙洊鐨勫瓧褰?
-         (CJK 鎵╁睍鍖恒€丄rchaic Cuneiform Numerals銆佹渶鏂?Unicode 绛?銆?
-         鏃犲悕 family 杩涘叆榛樿 fallback 閾? 鎸夐『搴忓厹搴曘€?
-         姹夊瓧閮ㄥ垎: 閬嶉粦浣撳湪鍓嶈鐩栧骞抽潰鐢熷兓瀛? 鏂囨触瀹嬩綋鍦ㄥ悗琛ラ綈 CJK 鍩烘湰鍖?鎵╁睍 A
-         绛夐亶榛戜綋涓嶆彁渚涚殑甯哥敤鍖?(瀛愰泦瑙?WenJinMincho-*.ttf 鐨?name 琛?銆?-->
+    <!-- 补充字库 (OFL-1.1): 全局 fallback, 兜底用户字体与系统字体未覆盖的字形
+         (CJK 扩展区、Archaic Cuneiform Numerals、最新 Unicode 等)。
+         无名 family 进入默认 fallback 链, 按顺序兜底。
+         汉字部分: 遍黑体在前覆盖多平面生僻字, 文津宋体在后补齐 CJK 基本区/扩展 A
+         等遍黑体不提供的常用区 (子集见 WenJinMincho-*.ttf 的 name 表)。 -->
     <family>
         <font weight="400" style="normal">PlangothicP1.ttf</font>
     </family>
